@@ -1,5 +1,5 @@
 include:
-  - remote: https://raw.githubusercontent.com/rockberpro/pure/main/gitlab/pure.yml
+  - remote: https://raw.githubusercontent.com/rockberpro/pure/v1/gitlab/pure.yml
     inputs:
       php_version: "7.4"
       test_version: "7.4-8.5"
