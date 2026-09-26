@@ -3,7 +3,8 @@ on: pull_request
 
 jobs:
   pure:
-    uses: rockberpro/pure/.github/workflows/check.yml@main
+    uses: rockberpro/pure/.github/workflows/check.yml@v1
     with:
       php_version: "7.4"
       test_version: "7.4-8.5"
+      profile: legacy
