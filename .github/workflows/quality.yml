@@ -1,0 +1,9 @@
+name: Quality
+on: pull_request
+
+jobs:
+  pure:
+    uses: rockberpro/pure/.github/workflows/check.yml@main
+    with:
+      php_version: "7.4"
+      test_version: "7.4-8.5"
